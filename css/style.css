@@ -11,3 +11,23 @@
     color: #fff;
     text-align: center;
 }
+
+.animacion{
+    text-align: center;
+    color: black;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+
+@keyframes animacion{
+    0%{
+        color: white;
+        font-size: 10px;
+    }
+    25%{
+        background-image: linear-gradient(to top, black)
+    }
+}
